@@ -509,3 +509,6 @@ header .main-menu ul li .mega-menu li ul li:last-child a {
 .lh {
   line-height: 10;
 }
+.text-justify {
+  text-align: justify;
+}

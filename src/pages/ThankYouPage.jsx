@@ -1,11 +1,8 @@
 import React from "react";
+import Thanks from "../component/Thanks";
 
 const ThankYouPage = () => {
-  return (
-    <div className="container">
-      <h1 className="text-center my-title">Thank you for shopping</h1>
-    </div>
-  );
+  return <Thanks />;
 };
 
 export default ThankYouPage;

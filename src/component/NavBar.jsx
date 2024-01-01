@@ -27,14 +27,12 @@ const NavBar = () => {
                       <li>
                         <Link to="notfound">404 Page</Link>
                       </li>
+
                       <li>
-                        <Link to="#">Order Tracking</Link>
+                        <Link to="faq">Faq Page</Link>
                       </li>
                       <li>
-                        <Link to="#">Faq Page</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Coming Soon Page</Link>
+                        <Link to="checkout">Checkout</Link>
                       </li>
                     </ul>
                     <ul className="d-block">
@@ -45,13 +43,13 @@ const NavBar = () => {
                         <Link to="cart">Cart Page</Link>
                       </li>
                       <li>
-                        <Link to="checkout">Checkout Page</Link>
+                        <Link to="policy">Term and Policy</Link>
                       </li>
                       <li>
-                        <Link to="#">Compare Page</Link>
+                        <Link to="review">Review</Link>
                       </li>
                       <li>
-                        <Link to="#">Wishlist Page</Link>
+                        <Link to="search">Search Product</Link>
                       </li>
                     </ul>
                     <ul className="d-block">
@@ -59,16 +57,11 @@ const NavBar = () => {
                         <Link to="#">Related Shop Pages</Link>
                       </li>
                       <li>
-                        <Link to="#">Account Page</Link>
+                        <Link to="registration">Register Page</Link>
                       </li>
+
                       <li>
-                        <Link to="#">Login & Register Page</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Empty Cart Page</Link>
-                      </li>
-                      <li>
-                        <Link to="ThankYouPage">Thank You Page</Link>
+                        <Link to="thankYouPage">Thank You Page</Link>
                       </li>
                     </ul>
                   </li>
@@ -176,7 +169,7 @@ const NavBar = () => {
                 </ul>
               </li>
               <li>
-                <Link to="#">Blog </Link>
+                <Link to="blog">Blog </Link>
               </li>
               <li>
                 <Link to="contact">Contact</Link>

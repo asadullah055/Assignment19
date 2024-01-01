@@ -1,11 +1,8 @@
 import React from "react";
+import Faq from "../component/Faq";
 
 const FrequentlyAskedQuestions = () => {
-  return (
-    <div>
-      <h1>Ask us what you want to know</h1>
-    </div>
-  );
+  return <Faq />;
 };
 
 export default FrequentlyAskedQuestions;

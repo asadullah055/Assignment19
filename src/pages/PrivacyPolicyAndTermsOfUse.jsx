@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import Policy from "../component/Policy";
 
 const PrivacyPolicyAndTermsOfUse = () => {
-    return (
-        <div>
-            <h1>This our term and policy</h1>
-        </div>
-    );
+  return <Policy />;
 };
 
 export default PrivacyPolicyAndTermsOfUse;

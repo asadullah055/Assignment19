@@ -1,11 +1,8 @@
 import React from "react";
+import Blogs from "../component/Blogs";
 
 const Blog = () => {
-  return (
-    <div>
-      <h1>Blog page Coming soon</h1>
-    </div>
-  );
+  return <Blogs />;
 };
 
 export default Blog;

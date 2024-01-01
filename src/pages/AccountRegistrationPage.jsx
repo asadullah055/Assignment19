@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import Registration from "../component/Registration";
 
 const AccountRegistrationPage = () => {
-    return (
-        <div>
-            <h1>Registration page</h1>
-        </div>
-    );
+  return <Registration />;
 };
 
 export default AccountRegistrationPage;

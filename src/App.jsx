@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Footer from "./component/Footer";
 import Navigation from "./component/Navigation";
 import NotFoundPage from "./pages/404Page";
 import AccountRegistrationPage from "./pages/AccountRegistrationPage";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/thankYouPage" element={<ThankYouPage />}></Route>
           <Route path="/contact" element={<Contacts />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

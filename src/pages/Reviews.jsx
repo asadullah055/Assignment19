@@ -1,11 +1,8 @@
 import React from "react";
+import Review from "../component/Review";
 
 const Reviews = () => {
-  return (
-    <div>
-      <h1>Our review section</h1>
-    </div>
-  );
+  return <Review />;
 };
 
 export default Reviews;
